@@ -1,0 +1,126 @@
+
+body{
+    font-family: "Bodoni MT";
+    position: relative;
+    left: 40px;
+    border: 1px solid black ;
+    width: 670px;
+    padding: 30px;
+}
+.text{
+    display: flex;
+}
+div.logo{
+
+
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding-top: 15px;
+
+}
+div.menu{
+
+    color: #73ffab;
+    border: 2px solid black;
+    margin: 5px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 500px;
+
+}
+
+h1,h2{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+table,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    position: relative;
+    left:100px;
+    width: 500px;
+}
+
+img{
+    position: relative;
+    padding-left: 110px;
+}
+fieldset{
+    position: relative;
+    left: 100px;
+    width: 470px;
+}
+.kontakt,.placeholders,.checkbox{
+    display: inline;
+    margin:100px;
+}
+.placeholders{
+    word-spacing: 10px;
+}
+a{
+    color: aqua;
+}
+
+
+.haupt{
+    padding-left: 220px;
+    padding-top: 10px;
+
+}
+h1.end{
+    position: relative;
+    padding-left: 60px;
+}
+#email,#Vorname{
+    width: 80px;
+}
+
+#Newsletter{
+    width: 130px;
+}
+.checkbox{
+    display: inline;
+
+}
+
+footer{
+    text-align: center;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 25% 35% 30%;
+    padding-left: 120px;
+    gap: 10px;
+}
+
+.mensa{
+    border-right: 1px solid black;
+    border-right-width: 2px;
+    padding-left: 120px;
+    padding-right: 10px;
+    display: inline;
+}
+.namen{
+    padding-left: 15px;
+    border-right: 1px solid black;
+    border-right-width: 2px;
+    padding-right: 15px;
+    display: inline;
+}
+.impressum
+{
+    padding-left: 15px;
+    padding-right: 25px;
+    display: inline;
+}
+
+
+
+

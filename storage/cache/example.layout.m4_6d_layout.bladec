@@ -1,0 +1,19 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>
+ Namen und interne Preise von Gerichten
+ </title>
+</head>
+<body>
+<?php $this->startSection('content1'); ?>
+<?php echo $this->yieldSection(); ?>
+hi
+<div class="container">
+<?php echo $this->yieldContent('content1'); ?>
+</div>
+</body>
+<footer>
+
+</footer>
+</html>

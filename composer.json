@@ -1,0 +1,21 @@
+{
+    "name": "emensa/mvc",
+    "require": {
+        "eftec/bladeone": "^4.2",
+        "ext-mysqli": "*",
+        "monolog/monolog": "^2.3.5",
+        "illuminate/database": "^8.79",
+        "symfony/console": "^5.4"
+
+    },
+
+    "config": {
+        "disable-tls": true,
+        "secure-http": false
+    },
+    "autoload": {
+        "classmap": [
+            "models"
+        ]
+    }
+}

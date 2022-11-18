@@ -1,0 +1,1 @@
+<br>Die Bewertung mit dem ID {{$bewertid}} wurde erfolgreich gelöscht.<br> Drücken Sie <- um zurück zu Hauptseite zu kehren .

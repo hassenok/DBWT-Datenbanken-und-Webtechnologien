@@ -1,0 +1,8 @@
+<?php $_shouldextend[1]=1; ?>
+
+
+
+<?php $this->startSection('header','Dies ist Header-Muster 2'); ?>
+<?php $this->startSection('main','Dies ist Main-Muster 2'); ?>
+<?php $this->startSection('footer','Dies ist Footer-Muster 2'); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('m4_6d_layout'); } ?>
